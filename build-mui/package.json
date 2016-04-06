@@ -4,8 +4,8 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "js:dev": "browserify main.js > ../resources/public/js/material.js",
-    "js:min": "NODE_ENV=production browserify main.js | uglifyjs -cm -o ../resources/public/js/material.min.js",
+    "js:dev": "browserify main.js > ../resources/public/js/material-ui.js",
+    "js:min": "NODE_ENV=production browserify main.js | uglifyjs -cm -o ../resources/public/js/material-ui.min.js",
     "start": "npm run js:dev && npm run js:min"
   },
   "author": "",

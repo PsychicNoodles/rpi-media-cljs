@@ -1,4 +1,8 @@
 /build-mui/node_modules
+/build-mui/npm-debug.log
+
+/resources/public/js/material-ui.js
+/resources/public/js/material-ui.min.js
 
 *~
 .idea
